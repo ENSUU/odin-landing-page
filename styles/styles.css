@@ -15,7 +15,9 @@ ul {
     /* border: 1px solid skyblue; */
 }
 
-#headerSection {
+/* Header Section Styling */
+
+#headerSection, #footerSection {
     background-color: #1F2937; 
 }
 
@@ -177,4 +179,14 @@ ul {
     border: 2px solid white;
     font-weight: bold;
     font-size: 13px;
+}
+
+/* Footer Section Styling */
+#footerSection {
+    color: #E5E7EB;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px 0;
+    font-size: 14px;
 }
