@@ -6,11 +6,11 @@ body {
 }
 
 ul {
-    padding: 0;
+    padding: 17px 0;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1015px;
     margin: 0 auto;
 }
 
@@ -21,11 +21,11 @@ ul {
 #heroSection {
     display: flex;
     gap: 10px;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .heroText {
-    width: 423px;
+    width: 466px;
     margin-right: auto;
 }
 
@@ -33,6 +33,7 @@ ul {
     font-weight: bold; 
     color: #F9FAF8;
     font-size: 48px;
+    margin-top: 0;
 }
 
 .heroText p {
@@ -87,6 +88,12 @@ ul {
     text-align: center;
 }
 
+.infoSection h1 {
+    font-size: 36px;
+    font-weight: bold; 
+    color: #1F2937; 
+}
+
 .infoCard {
     width: 150px;
 }
@@ -102,4 +109,30 @@ ul {
     border: 3px solid #3882F6; 
     height: 150px;
     border-radius: 18px;
+}
+
+/* Quote Section Styling */
+
+#quoteSection {
+    background-color: #E5E7EB;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 80px 44px;
+}
+
+#quoteSection blockquote p {
+    font-size: 36px; 
+    font-style: italic; 
+    color: #1F2937;
+    max-width: 835px;
+    margin: 0;
+}
+
+.quotePerson {
+    display: flex; 
+    justify-content: flex-end; 
+    font-size: 24px;
+    font-weight: bold;
 }
