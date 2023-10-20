@@ -12,6 +12,7 @@ ul {
 .container {
     max-width: 1015px;
     margin: 0 auto;
+    /* border: 1px solid skyblue; */
 }
 
 #headerSection {
@@ -135,4 +136,45 @@ ul {
     justify-content: flex-end; 
     font-size: 24px;
     font-weight: bold;
+}
+
+/* Call to Action Section Styling */
+#callToActionSection {
+    padding: 75px;
+}
+
+.callToAction {
+    display: flex; 
+    background-color: #3882F6;
+    border-radius: 5px;
+    justify-content: center;
+    gap: 120px;
+    padding: 20px 0;
+}
+
+.ctaText h3 {
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.ctaText p {
+    color: #E5E7EB;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.ctaLink {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.ctaLink a {
+    text-decoration: none; 
+    color: #F9FAF8;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 13px;
 }
